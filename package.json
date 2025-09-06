@@ -1,0 +1,29 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/BeMyHoney-ru/frontend-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/BeMyHoney-ru/frontend-project-12/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:frontend": "npm --prefix frontend install --no-audit --no-fund",
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "start": "npx start-server -s ./frontend/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeMyHoney-ru/frontend-project-12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BeMyHoney-ru/frontend-project-12/issues"
+  },
+  "homepage": "https://github.com/BeMyHoney-ru/frontend-project-12#readme",
+  "private": "true",
+  "dependencies": {
+    "@hexlet/chat-server": "^2.0.4"
+  }
+}
